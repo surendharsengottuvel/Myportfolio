@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surendhar Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./Index.css"> 
+        <script src="./Javascript.js"></script> 
+</head>
+<body style="position: absolute;">
+    <div>
+        <div class="navbar navbar-expand-lg fixed-top ournavbar">
+            <h3 class="navbar-brand fs-2 text-warning" style="font-weight: bolder; margin-left: 8%;">Portfolio.</h3>
+            <button class="navbar-toggler bg-dark text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#Homedetails" class="nav-link active" onclick="ToshowHomepage()">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Aboutdetails" class="nav-link" onclick="ToshowAboutpage()">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Skillsid" type="button" class="nav-link" onclick="ToshowSkills()">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Projectid" type="button" class="nav-link" onclick="ToshowProject()"></i>PROJECT</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a href="#contactdetails" class="nav-link" onclick='ToshowContact()'>CONTACT</a>
+                    </li>
+                  </ul>
+            </div>
+         </div>  
+    </div>
+    <div class="contentpage" id="Homedetails">
+        <div class="container row">
+            <div class="col-lg-8">
+                <h4 class="bg-light mt-2 d-inline-flex" id="Hithere">Hi there!</h4>
+            <h2 class="text-danger">My name is SURENTHIRAN SENGOTTUVEL</h2>
+            <h3><i>Java Full-Stack Developer</i></h3>
+            
+            <a href="https://linkedin.com/in/surenthiran-sengottuvel1598" target="_blank"><i class="bi bi-linkedin h3"></i></a>
+            <a href="https://github.com/surendharsengottuvel" target="_blank"><i class="bi bi-github h3"></i></a>
+            <a href=""><i onclick="sendtomain()" class="bi bi-envelope-at h3"></i></a>
+            <br>
+            <br>
+            <a href="./pdf/Surendharsengodupro.pdf" target="_blank" class="mt-5"><button class="btn btn-outline-success text-dark fs-5">Download CV</button></a>
+            </div>
+            <div class="col-lg-2">
+                <img src="./images/Surenthiran.jpg" alt="images" style="border-radius: 20px; margin-top: 20%; margin-bottom: 20%;">
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="aboutsection">
+            <h2 class="mb-3" id="Aboutdetails">ABOUT</h2>
+            <p class="mb-6"><b>I am a passionate and dedicated individual transitioning from a successful career in the 
+                BPO domain to pursue my passion for Java full-stack development. With four years of experience
+                in the BPO industry. I have honed my skills in communication, problem-solving, and teamwork.
+                Now, as a fresher in the IT domain, I am eager to apply my previous experience and embark on a new journey
+                in web development. I am enthusiastic about learning and growing in the field of Java full-stack
+                development, and I am committed to contributing positively to any team I join.
+            </b></p>
+        </div>
+    </div>
+    <div>
+        <div class="skillssection" id="Skillsid">
+            <h2 style="text-align: center;">SKILLS</h2>
+            <p>I have a broad range of applicable skills that will enable
+                me to be a valuable member of your team. These include specific
+                technical skills i have developed over the last year along with 
+                strong soft skills developed over the course of my career.   
+            </p>
+            <div class="skillscontainer">
+                <div class="container row">
+                    <div class="skills col-lg-4">
+                        <i class="bi bi-filetype-html h1"></i>
+                        <h3>HTML</h3>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                        <p>Proficient in creating structured and semantically correct HTML markup for web pages and applications.
+                            Experienced in implementing various HTML elements and attributes to achieve desired layouts and functionalities.
+                        </p> 
+                    </div>
+                    <div class="skills col-lg-4">
+                        <i class="bi bi-filetype-css h1"></i>
+                        <h3>CSS</h3>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i>
+                        <p>Skilled in styling web pages using CSS, including layout design, color schemes, typography and responsive
+                            design techniques.
+                        </p>
+                    </div>
+                    <div class="skills col-lg-4">
+                        <i class="bi bi-filetype-js h1"></i>
+                        <h3>JAVA SCRIPT</h3>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></i>
+                        <p>Good level of proficiency in JavaScript programmingm including DOM manipulation, event handling and asynchronous
+                            programming concepts. Familiar witth ES6 features(map, filter, reducer, restparameter, spread operator) and modern
+                            JavaScript libraries and frameworks
+                        </p>
+                    </div>
+                </div>
+                <div class="container row">
+                    <div class="skills col-lg-4">
+                        <i class="bi bi-bootstrap-fill h1"></i>
+                        <h3>BOOTSTRAP</h3>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i>
+                        <p>Well Practiced in using bootstrap framework to build responsive and mobile-first websites. Capable of
+                            utilizing bootstrap components and utilities to streamline development and enhance user interface design.
+                        </p>
+                    </div>
+                    <div class="skills col-lg-4">
+                        <img src="./images/reacticon.png" width="40px" alt="reacticon">
+                        <h3>REACT JS</h3>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i>
+                        <p>More than Intermediate level of knowledge in building dynamic and interactive user interfaces using React.js 
+                            library. Well Practiced in creating resuabble components, managing state(using UseState Hook) and integrating React
+                             with other libraries and APIs. 
+                        </p>
+                    </div>
+                    <div class="skills col-lg-4">
+                        <img src="./images/springicon.png" width="40px" alt="springicon">
+                        <h3>SPRING BOOT</h3>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i>
+                    <p>Capable in developing Java web applications using the Spring Boot framework. Skilled in configuring
+                        Spring Boot projects, implementing REST APIs, and integrating with databases and other backend technologies.
+                    </p>
+                    </div>
+                </div>
+                <div class="container row">
+                    <div class="skills col-lg-6">
+                        <i class="bi bi-filetype-java h1"></i>
+                        <h3>CORE JAVA</h3>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                        <p>I am deeply passionate about working with Java. I am dedicated to continually expanding my knowledge and skills
+                            in JAVA tto develier high-quality, innovative solutions that make a positive impact. Telanted in core Java programming fundamentals,
+                            OOPS, collections, multithreading and exception concepts.
+                        </p>
+                    </div>
+                    <div class="skills col-lg-6">
+                        <i class="bi bi-database-add h1"></i>
+                        <h3>ORACLE DATABASE</h3>
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i><i class="bi bi-star"></i>
+                        <p>Well practice and experience in Database languages like DML, DDL, DCL, TCL. Having a Capablity to manuipulate
+                            CRUDL operation in Database datas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="projectbackground">
+            <div class="projectsection">
+                <h3  id="Projectid">Project</h3>
+                <div class="container">
+                    <h4>Project Overview: Simple CRUDL Application with Spring Boot, React.js, and Oracle</h4>
+                    <p>
+                        DatabaseDescription: This project is a simple CRUDL (Create, Read, Update, Delete,
+                        List) application built using Spring Boot, React.js, and an Oracle database. It serves
+                        as a demonstration of fundamental web development principles and technologies,
+                        showcasing the integration of front-end and back-end components to perform
+                        basic data management operations.
+                    </p>
+                    <br>
+                    <div>
+                        
+                       <a target="_blank" href=" https://github.com/surendharsengottuvel/willsuccess/tree/master/src">
+                        <p>Front end</p>  </a> 
+                        <a target="_blank"href="https://github.com/surendharsengottuvel/tryit/tree/master/ButNevergiveup%2FButNevergiveup%2Fsrc%2Fmain%2Fjava%2FIfeeltired%2FButNevergiveup">
+                            <p>Back end</p>   </a>
+                
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="educationsection">
+            <div class="container row">
+                <div class="col-lg-6">
+                    <h3>Education</h3>
+                    <div>
+                        <b>2013-2015</b>
+                        <h4>High School</h4>
+                        <p>Percentage 81</p>
+                    </div>
+                    <div>
+                        <b>2015-2018</b>
+                        <h4>Bachelor's Degree</h4>
+                        <p>Percentage 67</p>
+                    </div>
+                    <div>
+                        <b>2018-2020</b>
+                        <h4>Master Degree</h4>
+                        <p>Percentage 60</p>
+                    </div>
+                    <div>
+                        <b>2023</b>
+                        <h4>Java full-stack development</h4>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3>Experience</h3>
+                    <div>
+                        <b>Dec-2019 to Sep 2021</b>
+                        <h4>Trainee Executive <i>(BPO domain)</i></h4>
+                        <h6>MNW India Pvt Ltd.</h6>
+                    </div>
+                    <div>
+                        <b>Feb-2022 to Nov 2023</b>
+                        <h4>Process Associate <i>(BPO domain)</i></h4>
+                        <h6>FAI - First American India</h6>
+                    </div>
+                    <!--  -->
+                    <div>
+                        <h3>Message Me</h3>
+                        <div class="container row">
+                        <input type="text" id="Namedetails" class="col form-control me-4" placeholder="name">
+                        <input type="text" id="Maildetails" class="col form-control" placeholder="mail">    
+                        </div>
+                        <input type="text" id="Mailsubject" placeholder="subject" class="form-control mb-4">
+                        <textarea id="Describedetails" placeholder="describe content" class="form-control mb-4" cols="20" rows="4"></textarea>
+                        <button class="btn btn-dark" onclick="Tosendmail()">Send me</button>
+                        <script src="https://smtpjs.com/v3/smtp.js">
+                                
+                        </script>
+                        <script>
+                            function Tosendmail(){
+                             let name= document.getElementById("Namedetails").value
+                             let mailid=document.getElementById("Maildetails").value
+                            let subject=document.getElementById("Mailsubject").value
+                            let description=document.getElementById("Describedetails").value
+                            window.location.href ="mailto:surenthiranviru@gmail.com?subject="+subject+""+name+"&body="+description;
+                        }   
+                        </script>
+                        
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+        <div style="margin: 3%; background-color: bisque;">
+            <div id="addressrestyle">
+                <div class="container row  addresssection" id="contactdetails">
+                    <div class="col-lg-4 addressstyle">
+                        <h4>Social Media</h4>
+                            <div class="container" style="color: black;">
+                                <a href="https://linkedin.com/in/surenthiran-sengottuvel1598" target="_blank"><i class="bi bi-linkedin h3"></i></a>
+                                <a href="https://github.com/surendharsengottuvel" target="_blank"><i class="bi bi-github h3"></i></a>
+                                <a href=""><i onclick="sendtomain()" class="bi bi-envelope-at h3"></i></a>
+                            </div>
+                    </div>
+                    <div class="col-lg-4 addressstyle">
+                        <h4><i class="bi bi-person-rolodex"></i> Contacts</h4>
+                        <h5><i class="bi bi-envelope-at h6"></i> surenthiranviru@gmail.com</h5><span></span>
+                        <h5><i class="bi bi-whatsapp h6"></i>  8438492014</h5>
+                        <h5>9942878635 (alternate)</h5>
+                    </div>
+                    <div class="col-lg-4 addressstyle">
+                        <h4><i class="bi bi-geo-alt-fill"></i>Address</h4>
+                        <h5>5/109, Thalaivar Thottam (St)</h5>
+                        <h5>Vennandur(PO)</h5>
+                        <h5>Rasipuram(TK)</h5>
+                        <h5>Namakkal(DT) TN.</h5>
+                        <h5>South India</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+</body>
+</html>
